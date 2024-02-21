@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ThunderClient</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class='child-left'>
+            <div class="upperleft">
+                <div class="upperleftline">
+                    <div class="name">Thunder Client</div>
+                    <div class="logo">
+                        <i id="logo" class="fa-solid fa-arrow-rotate-right"></i>
+
+                        <i id="logo" class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+
+                <button class="button">New Request</button>
+
+                <div class="bar">
+                    <p>Activity</p>
+                    <p>Collections</p>
+                    <p>Env</p>
+                </div>
+                <hr>
+            </div>
+            <div class="lowerleft">
+
+            </div>
+        </div>
+        <hr>
+        <div class="right-left-child">
+
+            <div class="left-head">
+                <div class="left-header">
+                    <label for=""></label>
+                    <select name="cars" id="cars">
+                        <option >GET</option>
+                        <option >POST</option>
+                    </select>
+                    <input type="text" id="searchbar" placeholder="Search..." />
+                    <button class="send-button">Send</button>
+                </div>
+
+                <div class="buttons">
+                    <span class="leftbutton selected">Query</span>
+                    <span class="leftbutton">Headers</span>
+                    <span class="leftbutton">Auth</span>
+                    <span class="leftbutton">Body</span>
+                    <span class="leftbutton">Tests</span>
+                    <span class="leftbutton">Pre Run</span>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <p>Query Parameter</p>
+                <div class="fORM">
+                    <form action="">
+                        <input class="checkbox" type="checkbox">
+                        <input class="value" type="parameter">
+                        <input class="value" type="value">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="left-right-child_">
+            <div class="left-right-head">
+                <div class="left-right-header">
+                    <h4>Status:</h4>
+                    <h4>Size:</h4>
+                    <h4>Time</h4>
+                </div>
+                <div class="buttons">
+                    <span class="rightbutton selected">Response</span>
+                    <span class="rightbutton">Headers</span>
+                    <span class="rightbutton">Cookies</span>
+                    <span class="rightbutton">Resukt</span>
+                    <span class="rightbutton">Docs</span>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

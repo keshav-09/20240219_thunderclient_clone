@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1E1E1E;
+}
+
+hr {
+    color: #222222;
+    border: 1px solid #303030;
+}
+
+.selected {
+    border-bottom: 3px solid #0E639C;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+
+}
+
+.left-right-child {
+    border-left: 1px solid #2C2C2C;
+    width: 40%;
+    height: 100vh;
+    flex: 1;
+}
+
+/* Left side  of the window */
+.right-left-child {
+    border-right: 1px solid #2C2C2C;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    padding: 20px;
+}
+
+select {
+    display: inline;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid #3D3D3D;
+    outline: 1px white;
+    color: white;
+}
+
+#searchbar {
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 350px;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px solid #3D3D3D;
+    outline: 1px white;
+    color: white;
+    font-size: larger;
+}
+
+.send-button {
+    outline: 0px;
+    margin: 0px;
+    border: 1px solid #3D3D3D;
+    background-color: #0E639C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 55px;
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.left-head {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.leftbutton {
+    outline: 0px;
+    margin: 0px;
+    padding: 2px;
+    background-color: #1E1E1E;
+    color: white;
+    margin-right: 20px;
+}
+
+.container {
+    margin: 10px;
+    height: 80vh;
+    width: 80%;
+    margin-left: 60px;
+}
+
+/* Right side of Window */
+.left-right-header {
+    height: 45px;
+    display: flex;
+    justify-content: left;
+    margin-top: 58px;
+    margin-bottom: 12px;
+}
+
+p{
+    color: white;
+}
+
+h4 {
+    margin-right: 20px;
+    color: white;
+}
+
+.rightbutton {
+    outline: 0px;
+    margin: 0px;
+    padding: 2px;
+    background-color: #1E1E1E;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.left-right-head {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.value {
+    margin: 5px;
+    display: inline-flex;
+    flex-direction: row;
+    
+    border-bottom: 2px solid white;
+    width: 200px;
+    color: aliceblue;
+}
+.checkbox{
+    color: white;
+}
+
+.child-left {
+    display: flex;
+    /* border: 4px solid rgb(167, 40, 40); */
+    /* vertical-align: middle; */
+    width: 20%;
+    height: 100%;
+    background-color: #1e1e1e;
+    border: 0.01mm solid rgb(115, 107, 107);
+}
+
+.upperleftline {
+    display: flex;
+    font-size: 14px;
+    padding-left: 17px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    padding-left: 1px;
+    margin-left: 130px;
+    color: white;
+}
+
+i {
+    gap: 90px;
+    padding: 3px;
+}
+
+.button {
+    width: 90%;
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    background-color: #007acc;
+    color: white;
+    margin-top: 4px;
+}
+
+.bar {
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+    gap: 30px;
+    color: white;
+}
+
+.bar:hover {
+    /* text-decoration: underline; */
+    border-bottom: 3px solid Blue;
+}
